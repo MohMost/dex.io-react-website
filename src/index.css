@@ -1,0 +1,39 @@
+::-webkit-scrollbar {
+  width: 1.5em;
+  height: 1em;
+}
+
+::-webkit-scrollbar-track {
+  background: #ebeaea;
+  border-radius: 100vw;
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #140941;
+  border: 0.15em solid #ebeaea;
+  border-radius: 100vw;
+  height: 5rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #796bb3;
+}
+:root{
+  background-image: radial-gradient(ellipse at top left, #321f58, #140941);
+  height: 100vh;
+  width: 100vw;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu";
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  max-width: 100vw;
+}

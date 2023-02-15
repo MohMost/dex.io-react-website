@@ -1,0 +1,262 @@
+.pokeList {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  align-items: start;
+}
+
+.pokeList .card {
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 10%;
+  width: 250px;
+  height: 350px;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.3em 0.5em rgb(0,0,0, 0.2)
+}
+
+.pokeList .card .buttons {
+  background-color: rgb(8%, 4%, 25%, 60%);
+  width: 250px;
+  height: 350px;
+  border-radius: 1.5rem;
+  backdrop-filter: blur(5rem);
+  position: relative;
+  -ms-transform: translateY(-96.6%);
+  transform: translateY(-96.6%);
+}
+.pokeList #866 div.buttons {
+  -ms-transform: translateY(-82%)!important;
+  transform: translateY(-82%)!important;
+}
+
+.pokeList .card .buttons a {
+  -ms-transform: translateY(450%);
+  transform: translateY(450%);
+  padding: 7px 10px;
+  margin: 20px 40px;
+  display: block;
+  background: #ebeaea;
+  text-align: center;
+  border-radius: 2rem;
+  color: #140941;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grass {
+  background: #b1f1a0;
+}
+.grass:hover {
+  filter: drop-shadow(0 0 0.9rem #b1f1a0);
+}
+.fire {
+  background: #ffc2b5;
+}
+.fire:hover {
+  filter: drop-shadow(0 0 0.9rem #ffc2b5);
+}
+.water {
+  background: #add3ff;
+}
+.water:hover {
+  filter: drop-shadow(0 0 0.9rem #add3ff);
+}
+.ground {
+  background: #d59567;
+}
+.ground:hover {
+  filter: drop-shadow(0 0 0.9rem #d59567);
+}
+.bug {
+  background: #f5ffa0;
+}
+.bug:hover {
+  filter: drop-shadow(0 0 0.9rem #f5ffa0);
+}
+.dark {
+  background: #d49188;
+}
+.dark:hover {
+  filter: drop-shadow(0 0 0.9rem #d49188);
+}
+.dragon {
+  background: #959fff;
+}
+.dragon:hover {
+  filter: drop-shadow(0 0 0.9rem #959fff);
+}
+.electric {
+  background: #ffe592;
+}
+.electric:hover {
+  filter: drop-shadow(0 0 0.9rem #ffe592);
+}
+.fairy {
+  background: #feb5ff;
+}
+.fairy:hover {
+  filter: drop-shadow(0 0 0.9rem #feb5ff);
+}
+.fighting {
+  background: #ffcfa0;
+}
+.fighting:hover {
+  filter: drop-shadow(0 0 0.9rem #ffcfa0);
+}
+.flying {
+  background: #95cbff;
+}
+.flying:hover {
+  filter: drop-shadow(0 0 0.9rem #95cbff);
+}
+.ghost {
+  background: #d68fd7;
+}
+.ghost:hover {
+  filter: drop-shadow(0 0 0.9rem #d68fd7);
+}
+.ice {
+  background: #caf4ff;
+}
+.ice:hover {
+  filter: drop-shadow(0 0 0.9rem #caf4ff);
+}
+.normal {
+  background: #bdbdbd;
+}
+.normal:hover {
+  filter: drop-shadow(0 0 0.9rem #dfdfdf);
+}
+.poison {
+  background: #ce9cf5;
+}
+.poison:hover {
+  filter: drop-shadow(0 0 0.9rem #ce9cf5);
+}
+.psychic {
+  background: #ff92b3;
+}
+.psychic:hover {
+  filter: drop-shadow(0 0 0.9rem #ff92b3);
+}
+.rock {
+  background: #f0e9b7;
+}
+.rock:hover {
+  filter: drop-shadow(0 0 0.9rem #f0e9b7);
+}
+.steel {
+  background: #d1f3ff;
+}
+.steel:hover {
+  filter: drop-shadow(0 0 0.9rem #d1f3ff);
+}
+.cardHead {
+  position: relative;
+  background: white;
+  border-radius: 1.5rem 1.5rem 0 0;
+  height: 220px;
+}
+.cardDetail .types{
+  display: block;
+  
+}
+.pokeList .card .cardHead img {
+  position: relative;
+  display: block;
+
+  left: 5%;
+  right: auto;
+  object-fit: scale-down;
+}
+
+.cardHead .index {
+  background: #140941;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  right: 8px;
+  top: 8px;
+  text-align: center;
+}
+.cardHead .index p {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #ebeaea;
+  font-weight: 550;
+}
+.cardDetail div {
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+}
+.cardDetail div img {
+  width: 70px;
+  height: 14px;
+}
+.cardDetail div p {
+  font: size 0.7srem;
+
+  font-weight: 600;
+  color: #140941;
+  margin: 13px 7px;
+  text-transform: capitalize;
+}
+.cardDetail .stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.cardDetail .stats1 li {
+  color: #140941;
+  font-weight: 600;
+  padding-left: 15px;
+  font-size: 0.8rem;
+}
+
+.cardDetail .stats2 li {
+  color: #140941;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 0.8rem;
+}
+.scroll {
+  display: flex;
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 10px;
+  bottom: 10px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+  background: #f8003f;
+  border-radius: 50%;
+  justify-content: center;
+  z-index: 2;
+}
+.scroll.active {
+  pointer-events: auto;
+  opacity: 1;
+}
+.scroll .arrow {
+  display: relative;
+  margin-right: 2.3px;
+  margin-top: 7.8px;
+  width: 2rem;
+  height: 2rem;
+}
+.filtered {
+  display: none !important;
+}

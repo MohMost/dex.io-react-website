@@ -1,0 +1,110 @@
+.or {
+  color: #f8003f;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+.filters {
+  display: flex;
+  align-items: center;
+  font-size: 0.7rem;
+  justify-content: space-evenly;
+}
+.filters .drop {
+  width: 3rem;
+  font-size: 0.7rem;
+  margin: auto 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ebeaea;
+  border-radius: 0.5em;
+}
+.filters .container .drop {
+  display: flex;
+  color: #ebeaea;
+  background: #2e314e;
+  border-radius: 0.5em ;
+  cursor: pointer;
+  
+}
+ .filters .filter {
+  display: none;
+  
+  border: none;
+  padding-right: 0.2rem;
+  font-weight: 600;
+}
+.filters .filter p {
+  font-size: 1.5rem;
+
+}
+.filters .container .sub {
+  position: absolute;
+  background: #2e314e;
+  z-index: 1;
+  box-shadow: 0 0.5em 1em rgb(0,0,0, 0.2);
+  border-radius:0.5em;
+  cursor: pointer;
+  transition: ease-in-out 1s linear;
+}
+.filters .container .drop:hover{
+  
+  background: #5a5f91;
+}
+.filters .generation{
+  width: 7rem !important;
+  padding: .5rem;
+}
+.filters .name{
+  width: 7rem !important;
+  padding: .5rem;
+}
+.filters .type{
+  width: 5rem !important;
+  padding: .5rem;
+}
+.filters .filter {
+  font-size: 1.2rem;
+}
+.filters .container .sub li{
+  font-size: 0.7rem;
+  margin: 0.3rem 0.2rem;
+  padding: .2rem .2rem;
+  display: block;
+  color: #ebeaea;
+  text-align: center;
+  
+  border-radius:0.5em;
+  
+}
+.filters .container .a {
+  width: 80px !important;
+  padding: auto 0.5rem;
+  margin: 6px 8px;
+  
+}
+.filters .container .b {
+  width: 112px !important;
+  padding: auto 0.5rem;
+  margin: 6px 8px;;
+}
+.filters .container .c {
+  width: 7rem !important;
+  padding: auto 0.5rem;
+  margin: 6px 8px;
+}
+.filters .container .sub li:hover{
+  background: #5a5f91;
+}
+.filters .container .show{
+  display: none;
+}
+.drop img {
+  margin-left: 0.2rem;
+  width: 0.5rem;
+  transition: 0.3s;
+}
+.or .by {
+  color:#ebeaea;
+}

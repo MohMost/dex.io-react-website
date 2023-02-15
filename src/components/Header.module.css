@@ -1,0 +1,68 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10%;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img,
+a {
+  padding-left: 0.2rem;
+}
+header .logo img {
+  width: 2rem;
+}
+.title {
+  color: #f8003f;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.title .io {
+  color: #ebeaea;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+.navbar li {
+  display: inline-block;
+  padding-left: 1.5rem;
+  color: #ebeaea;
+  cursor: pointer;
+  align-items: center
+}
+.navbar li a {
+  display: inline-block;
+  color: #ebeaea;
+  cursor: pointer;
+  align-items: center
+}
+.navbar ul li img {
+  display: flex;
+  align-items: center;
+  width: 1.8rem;
+  
+}
+.h1 {
+  position: relative;
+  margin-left: 15%;
+  margin-top: 7%;
+  margin-bottom: 4%;
+  margin-right: auto;
+  width: 70%;
+  align-items: center;
+}
+h1 {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f8003f;
+  text-shadow: 0 0.1em 0.3em rgb(0,0,0, 0.2);
+  
+}
+h1 .most {
+  color: #ebeaea;
+}

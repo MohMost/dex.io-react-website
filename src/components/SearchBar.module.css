@@ -1,0 +1,18 @@
+.add {
+  width: 100%;
+  align-items: center;
+  position: relative;
+  padding: 2rem 10% 1rem 10%;
+}
+.search {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  left: auto;
+  right: auto;
+  border-radius: 30rem;
+  font-size: 0.8rem;
+  border: none;
+  background: #ebeaea;
+  color: #140941;
+}
